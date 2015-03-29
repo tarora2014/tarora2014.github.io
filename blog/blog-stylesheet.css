@@ -33,7 +33,7 @@ p{
 
 }
 .box_title {
-    width: auto;
+    width: 20em;
     height: auto;
     border: 3px solid Black;
     margin-right: auto;
@@ -42,7 +42,7 @@ p{
 }
 
 .box_subtitle {
-    width: auto;
+    width: 25em;
     height: auto;
     border: 2px solid Black;
     margin-right: auto;
@@ -58,7 +58,7 @@ p{
     background-color:orange;
 }
 
-.box_p {
+.box {
     width: 80em;
     height: auto;
     border: 2px solid Black;
