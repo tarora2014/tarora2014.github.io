@@ -1,0 +1,42 @@
+html {
+    background-color:#AFD1B2;
+}
+
+header {
+    color:Black;
+	text-align: center;
+	font-size: 3em;
+	vertical-align: bottom;
+}
+
+li {
+    display:inline;
+    margin:2em;
+    font-size:2em;
+    margin-bottom:5em;
+    margin-top:5em;
+}
+
+img {
+    max-width: 60%;
+    max-height: 60%;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+td {
+    padding-right: 0em;
+    padding-left: 5em;
+    font-size:1em;
+    margin-top:3em;
+    margin-bottom: 3em;
+}
+
+footer>div{
+    text-align: center;
+    font-size:0.75em;
+    margin-top:5em;
+}
