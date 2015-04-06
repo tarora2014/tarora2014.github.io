@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Array and Hashes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<main>
+  <h1 class="box_title">
+    Array Vs. Hashes
+    <!-- Title -->
+  </h1>
+  <h2 class="box_subtitle">
+    What is the difference?
+    <!-- Subtitle -->
+  </h2>
+  <h4 class="box_date">
+      5th April, 2015
+      <!-- DATE Goes here -->
+  </h4>
+
+  <section class="box">
+    <p>
+      The first thing anyone reading this blog should understand is that both Arrays and Hashes are used to store information in a type of a table. 
+    </p>
+    <p>
+      Lets take about a Array first. Think about a table with 2 columns the first one is a "key" and the second one is a "value".For all arrays, the "key" is defined by Ruby as integers values in order stating from 0. For example make a table called "Balls" and put 3 different types of balls basketball, football and baseball. So, in your column called "key" you would have 0, 1, and 2 while in your column called "value" you would have basketball, football, and baseball. In Ruby code it would look like: balls["basketball","football","baseball"]
+    </p>
+    <p>
+      Now lets say someone asks you what is on row 2 of your Balls table? You would just go look at it the key column and find 2 and then look at the value column to find "baseball", since our column starts with key value of 0 not 1. In Ruby code you would have: balls[2], which would give you "baseball" as an output.
+    </p>
+    <p>
+      If you compare hashes to arrays, you would only see one difference. The "key" of arrays can be defined by the user and it's stored in the first column of the table as a object value. Keys for the hash table can be any value the user wants which gives the users more flexibility in creating the table.
+    </p>
+    <p>
+      Lets create a example hash table called highschool where we would store the highschool grades in the key column and the proper name of the grade in the value column. So in your key column you would have Ninth, Tenth, Eleventh, and Twelfth while on the value column you would have Freshman, Sophmore, Junior, and Senior. In ruby code you would create this in the following format: highschool = {'Ninth' => 'Freshman', 'Tenth' => 'Sophmore', 'Eleventh' => 'Junior', "Twelfth" => 'Senior'}
+    </p>
+    <p>
+      Now since you are using a hash table you would have to give the key and the code would tell you what value corresponds with the key. So let us say that you wanted to know what you call a Tenth grader you would just run the following code: highschool['Tenth'] with would give you "Sophmore" as an answer.
+    </p>
+    <p>
+      For most, Arrays are very easy to understand because it has integers as its defined "key" but now you can see that Hash tables are also exactly the same except you can define your own key.
+    </p>
+  </section>
+</main>
