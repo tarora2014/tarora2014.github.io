@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <title>Enumerable</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<main>
+  <h1 class="box_title">
+    Enumerable#cycle
+    <!-- Title -->
+  </h1>
+  <h2 class="box_subtitle">
+    Don't Reinvent The Wheel!
+    <!-- Subtitle -->
+  </h2>
+  <h4 class="box_date">
+      12th April, 2015
+      <!-- DATE Goes here -->
+  </h4>
+
+  <section class="box">
+    <p>
+      If you were making a sandwich for yourself, you would not start by growing your own vegetable, making your own bread and cheese, correct? You would just go to the store and buy all those things and then make yourself the sandwich. 
+    </p>
+    <p>
+      Just like you don't want to do all that work while making your sandwich, you don't want to create something that already exist for you to use while programming in Ruby. These are called Enumerable methods or data structures. These are methods that are put together or included with classes like Arrays which gives you the ability to use them without having to program them in your code.    
+    </p>
+    <p>
+      An example of Enumerable that is useful for loops in Ruby is called "#cycle". This lets the user run a section of code X number of times, where X is any positive integer up to infinity. For example, if you wanted to print numbers 0 to 100 which are in an array like (number = [0,1,2,3,...99,100]) on the screen you can do it in 2 ways. 
+      
+    </p>
+    <p>
+      First:  
+    </p>
+    <p>
+      puts number[0]
+    </p>
+    <p>
+      puts number[1]
+    </p>
+    <p>
+      all the way to : puts number[100]  
+    </p>
+    <p>
+      or 
+    </p>
+    <p>
+      Second: 
+    </p>
+    <p>
+      number.cycle(100){|n| puts n}
+    </p>
+    <p>
+      That one line of code, the second way, will do exactly what the other 100 lines of code will do. If you forget to include the number in the parenthesise the code in the braces will run for infinite number or times or will give you an error asking you to put a number. So the cycles method can be really useful to do things in a much organized way that is easy to read and program. 
+    </p>
+
+  </section>
+</main>
