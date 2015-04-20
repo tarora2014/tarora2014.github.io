@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <title>Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<main>
+  <h1 class="box_title">
+    Classes
+    <!-- Title -->
+  </h1>
+  <h2 class="box_subtitle">
+    When, Why, and How to use Classes
+    <!-- Subtitle -->
+  </h2>
+  <h4 class="box_date">
+      19th April, 2015
+      <!-- DATE Goes here -->
+  </h4>
+
+  <section class="box">
+    <p>
+      Classes in programming are program templates that can be used to create objects. They are useful in providing you the state of the object and ways to change the objects.
+    </p>
+    <p>
+      For example, imagine you are writing a program where you are describing different modes of transportation. You want to know things like the name of the transportation, how many people can it carry and if that mode travels on air, land or sea. In this example your class would be vehicles and your objects would be things like Car, Bus, Train, Boat, and Air-plains. 
+    </p>
+    <p>
+      In Ruby code, the code for the example above would look something like:
+    </p>
+    <p>
+      <img src="https://github.com/tarora2014/tarora2014.github.io/blob/master/blog/class_code.PNG?raw=true">
+    </p>
+    <p>
+      The names inside the initialize method are called instance variables which means every method inside the class has access to those variables. The book_ticket and pick_location are called instance methods which means that every time you create a new object with the vehicles class you will have access to those 2 methods. 
+    </p>
+    <p>
+      The way to create a object for the Vehicles class is "car = Vehicles(car, 4, land)". The object in this case is a car, it can hold 4 people and it goes over land. If you wanted to call methods that are available to all things inside the Vehicles class you would just do "car.book_ticket(1)" or "car.pick_location("San Francisco")". 
+    </p>
+
+  </section>
+</main>
