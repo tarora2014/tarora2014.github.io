@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<main>
+  <h1 class="box_title">
+    Variable Scope
+    <!-- Title -->
+  </h1>
+  <h2 class="box_subtitle">
+    When to use different kinds of Variable?
+    <!-- Subtitle -->
+  </h2>
+  <h4 class="box_date">
+      26th April, 2015
+      <!-- DATE Goes here -->
+  </h4>
+
+  <section class="box">
+    <p>
+      In Ruby there are 5 types of Variable Scope; local, global, instance, class, and constant.
+    </p>
+    <p>
+      First, there are local variables. These are variables that are local to the method or loop that they are defined in. They will not be accessible to anything outside that construct. They must start with a lower case letter or an underscore. Ex: "local_variable" or "_Local_variable"
+    </p>
+    <p>
+      Second, that are global variables. These are variables that are accessible from anywhere in the Ruby program where they are defined. Since they are accessible from any location, they make debugging your program harder and therefore are strongly discouraged. They must start with a dollar sign. Ex: "$global_variable"
+    </p>
+    <p>
+      Next, there are instance variable. These are variables that are accessible withing the same instance of a class. If you have multiple objects that belongs to the same class, each object will have its unique instance variable. These are defined with a "@". Ex: "@instance_variable"
+    </p>
+    <p>
+      Fourth, there are class variable. These are variables that are shared by all instance of a class. When a object changes the value of the class variable, the variable is changed by all instances of the class. They must start with 2 "@" characters. Example: "@@class_variable"
+    </p>
+    <p>
+      Lastly, there are constants. These are variables that should not change in the Ruby code. If the constance is defined inside a class or a method then they are available anywhere within that class or method, if its defined outside then they have global scope and can be accessed from anywhere in the code. These variables must be all uppercase. Ex: "CONSTANT".
+    </p>
+  </section>
+</main>
