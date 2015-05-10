@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Ruby Basics</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheet/stylesheets-cheat-sheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header>
+    <h1>Ruby Cheatsheet</h1>
+  </header>
+
+  <main>
+    <div class="title">
+      <h2>Introduction</h2>
+    </div>
+    <section>
+      <p>
+        This is a small Ruby tutorial that introduces you to the basics of the language. It makes the assumption that you already have Ruby installed.
+      </p>
+    </section>
+
+    <div class="title">
+      <h2>Defining a Method</h2>
+    </div>
+    <section>
+      <p>
+        The code def h starts the definition of the method. It tells Ruby that we’re defining a method, that its name is h. The next line is the body of the method, the same line we saw earlier: puts "Hello World". Finally, the last line end tells Ruby we’re done defining the method. Ruby’s response => :h tells us that it knows we’re done defining the method. This response could be => nil for Ruby 2.0 and earlier versions. But, it’s not important here, so let’s go on.
+      </p>
+      <p>
+        <img src="https://github.com/cgoppy/cgoppy.github.io/blob/master/images/picture1.png?raw=true">
+      </p>
+    </section>
+
+    <div class="title">
+      <h2>The Brief, Repetitive Lives of a Method</h2>
+    </div>
+    <section>
+      <p>Now let’s try running that method a few times:</p>
+      <p><img src="https://github.com/cgoppy/cgoppy.github.io/blob/master/images/picture2.png?raw=true"></p>
+      <p>
+       Well, that was easy. Calling a method in Ruby is as easy as just mentioning its name to Ruby. If the method doesn’t take parameters that’s all you need. You can add empty parentheses if you’d like, but they’re not needed.
+      </p>
+       <p>
+       What if we want to say hello to one person, and not the whole world? Just redefine h to take a name as a parameter.
+      </p>
+      <p><img src="https://github.com/cgoppy/cgoppy.github.io/blob/master/images/picture3.png?raw=true"></p>
+    </section>
+
+    <div class="title">
+      <h2>Evolving Into a Greeter</h2>
+    </div>
+    <section>
+      <p>
+        What if we want a real greeter around, one that remembers your name and welcomes you and treats you always with respect. You might want to use an object for that. Let’s create a “Greeter” class.
+      </p>
+      <p><img src="https://github.com/cgoppy/cgoppy.github.io/blob/master/images/picture4.png?raw=true"></p>
+      <p>
+        The new keyword here is class. This defines a new class called Greeter and a bunch of methods for that class. Also notice "@name". This is an instance variable, and is available to all the methods of the class. As you can see it’s used by "say_hi" and "say_bye".
+      </p>
+
+      <p>
+        Now let’s create a greeter object and use it:
+      </p>
+      <p><img src="https://github.com/cgoppy/cgoppy.github.io/blob/master/images/picture5.png?raw=true"></p>
+    </section>
+
+
+  <footer>
+    <p>
+      All information was gathered from:
+      <br/>
+      <cite><a href="https://www.ruby-lang.org/en/documentation/quickstart/">ruby-lang.org: Ruby in Twenty Minutes</a></cite>
+    </p>
+  </footer>
+</body>
