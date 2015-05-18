@@ -1,17 +1,17 @@
 html {
-  background-color:#4e75df;
+  background-color:white;
 }
 
 h1 {
-	color:Black;
+	color:black;
 	text-align: center;
 	font-size: 3em;
 	vertical-align: bottom;
-  font-family: "Times new roman"
+  font-family: 'Rock Salt', courier;
 }
 
 h2 {
-  color:Black;
+  color:black;
   text-align: center;
   font-size: 1.5em;
   vertical-align: middle;
@@ -22,14 +22,16 @@ h4 {
   text-align: left;
   font-weight: bold;
   font-style: italic;
+  color:black;
 }
 
 p{
-   color: black;
+   color: white;
    text-align: center;
    vertical-align: middle;
    font-style:oblique;
    font-size: 1em;
+   font-family: Raleway;
 
 }
 .box_title {
@@ -38,7 +40,12 @@ p{
     border: 3px solid Black;
     margin-right: auto;
     margin-left: auto;
-    background-color:orange;
+    background-color:#7575A3;
+    font-family: 'Rock Salt', courier;
+}
+
+href {
+  color:white;
 }
 
 .box_subtitle {
@@ -47,7 +54,8 @@ p{
     border: 2px solid Black;
     margin-right: auto;
     margin-left: auto;
-    background-color:orange;
+    background-color:#7575A3;
+    font-family: 'Poiret One', courier;
 }
 
 .box_date {
@@ -55,7 +63,8 @@ p{
     height: auto;
     border: 2px solid Black;
     margin-right: auto;
-    background-color:orange;
+    background-color:#7575A3;
+    font-family: 'Poiret One', courier;
 }
 
 .box {
@@ -64,5 +73,5 @@ p{
     border: 2px solid Black;
     margin-right: auto;
     margin-left: auto;
-    background-color:orange;
+    background-color:#7575A3;
 }

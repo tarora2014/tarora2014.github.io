@@ -1,21 +1,41 @@
 html {
-    background-color:#AFD1B2;
+    background-color:white;
 }
 
 header {
-    color:Black;
-	text-align: center;
-	font-size: 3em;
-	vertical-align: bottom;
+    color:black;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Rock Salt', courier;
+    width: 30em;
+    height: auto;
+    border: 3px solid Black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    background-color:#7575A3;
+    font-family: 'Rock Salt', courier;
+}
+
+ul {
+    width: auto;
+    height: 3em;
+    border: 2px solid Black;
+    background-color:#7575A3;
+    font-family: 'Rock Salt', courier;
+    text-align: center;
+    color:white;
 }
 
 li {
     display:inline;
     font-weight: bold;
-    margin:4em;
+    margin:3em;
     font-size:1.3em;
     margin-bottom:5em;
     margin-top:5em;
+    tex
+    text-align: center;
 }
 
 img {
@@ -25,7 +45,7 @@ img {
     padding-left: 15em;
     padding-top: 3em;
     margin-bottom: 3em;
-    
+
 }
 
 p {
@@ -35,6 +55,7 @@ p {
     font-size:1em;
     margin-top:3em;
     margin-bottom: 3em;
+    color:white;
 }
 
 footer>div{
